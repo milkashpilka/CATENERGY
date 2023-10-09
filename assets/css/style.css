@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: url("../img/index-background-desktop.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    position: relative;
+}
+
+#header_photo {
+    position: absolute;
+    left: 37%;
+    top: 20%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    padding-top: 71px;
+    max-width: 1220px;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#nav ul {
+    display: flex;
+    gap: 35.5px;
+    list-style: none;
+}
+
+#nav ul li {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+}
+
+#nav ul li::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #FFF;
+    transition: all .3s ease;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -5px;
+
+}
+
+#nav ul li:hover::after {
+    width: 100%;
+}
