@@ -69,3 +69,117 @@ header {
 #nav ul li:hover::after {
     width: 100%;
 }
+
+header .container h1 {
+    color: #000;
+    font-family: Oswald;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    max-width: 424px;
+    text-wrap: balance;
+}
+
+header .container p {
+    color: #000;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+header .container button {
+    color: white;
+    background-color: #68B738;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 14px 26px;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+    margin-top: 52px;
+}
+
+header .container {
+    margin-left: 140px;
+    margin-top: 65px;
+}
+
+main section .cards .card {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 374px;
+    background-color: #F2F2F2;
+    padding: 41px 51px 59px 52px;
+}
+
+main section .cards .card .title {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+}
+
+main section .cards .title b {
+    color: #000;
+    font-family: Oswald;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+main section .cards p {
+    color: #000;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 39px;
+}
+
+main section .cards a {
+    color: #000;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 27px;
+}
+
+main section .cards {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+main {
+    margin-top: 82px;
+}
+
+#how_job .items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#how_job .items .item {
+    width: 20%;
+    position: relative;
+}
+
+#how_job .items .item b {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 280px;
+}
