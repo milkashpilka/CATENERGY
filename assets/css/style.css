@@ -111,7 +111,7 @@ header .container {
     margin-top: 65px;
 }
 
-main section .cards .card {
+.features .cards .card {
     display: flex;
     flex-direction: column;
     width: 570px;
@@ -120,13 +120,13 @@ main section .cards .card {
     padding: 41px 51px 59px 52px;
 }
 
-main section .cards .card .title {
+.features .cards .card .title {
     display: flex;
     align-items: center;
     gap: 62px;
 }
 
-main section .cards .title b {
+.features .cards .title b {
     color: #000;
     font-family: Oswald;
     font-size: 36px;
@@ -136,7 +136,7 @@ main section .cards .title b {
     text-transform: uppercase;
 }
 
-main section .cards p {
+.features .cards p {
     color: #000;
     font-family: Arial;
     font-size: 16px;
@@ -146,7 +146,7 @@ main section .cards p {
     margin-top: 39px;
 }
 
-main section .cards a {
+.features .cards a {
     color: #000;
     font-family: Oswald;
     font-size: 20px;
@@ -157,7 +157,7 @@ main section .cards a {
     margin-top: 27px;
 }
 
-main section .cards {
+.features .cards {
     display: flex;
     gap: 80px;
     justify-content: center;
@@ -167,19 +167,196 @@ main {
     margin-top: 82px;
 }
 
-#how_job .items {
-    display: flex;
-    justify-content: space-evenly;
+.work {
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-top: 71px;
 }
 
-#how_job .items .item {
-    width: 20%;
+.work h2 {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.work-list {
+    list-style: none;
+    display: flex;
+    margin-top: 72px;
+    justify-content: space-between;
+}
+
+.work-list li {
     position: relative;
 }
 
-#how_job .items .item b {
-    position: absolute;
-    top: 0;
-    right: 0;
+.work-list li p {
+    color: #444;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 31px;
+    max-width: 201px;
+    position: relative;
+    z-index: 2;
+}
+
+.work-list li b {
+    color: #F2F2F2;
     font-size: 280px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 280px;
+    position: absolute;
+    top: -30px;
+    right: -33px;
+}
+
+.primer {
+    margin-top: 120px;
+
+}
+
+.primer h2 {
+    color: #000;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    margin-left: 110px;
+}
+
+.primer .block {
+    background: #F2F2F2;
+    padding: 70px 110px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-block,
+.right-block {
+    height: 312px;
+}
+
+.left-block__text {
+    color: #444;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 436px;
+}
+
+.left-block__features {
+    display: flex;
+    gap: 42px;
+    margin-top: 69px;
+}
+
+.left-block__features div {
+    border: 1px solid #CDCDCD;
+    width: 162px;
+    height: 72px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-block__features div b {
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+.left-block__features div span {
+    color: #444;
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    background-color: #F2F2F2;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -7px;
+    text-align: center;
+
+}
+
+.left-block__features div:first-child span {
+    width: 105px;
+}
+
+.left-block__features div:last-child span {
+    width: 135px;
+}
+
+.left-block__price {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+.left-block__price span {
+    margin-left: 63px;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.right-block__inner span {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    border-bottom: 1px dashed #CDCDCD;
+}
+
+.right-block__images img:first-child {
+    max-width: 300px;
+}
+
+.right-block__images img:last-child {
+    max-width: 260px;
+}
+
+.right-block__images {
+    display: flex;
+}
+
+.right-block__inner input {
+    width: 100%;
+}
+
+.right-block__inner {
+    display: flex;
+    gap: 24px;
+    margin-top: 20px;
+}
+
+.map{
+    height: 400px;
+    background-image: url(../img/map.png);
+    background-size: cover;
 }
